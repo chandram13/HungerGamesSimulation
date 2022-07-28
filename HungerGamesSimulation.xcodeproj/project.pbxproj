@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED7C91FE3C3753BE72981B32 /* HungerGamesSimulationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7C9A8BED0EC231A1F9E989 /* HungerGamesSimulationUITests.swift */; };
+		ED7C941C17D2478E8B69E140 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED7C915AC69236167A58DC2D /* Assets.xcassets */; };
+		ED7C94E47B48A9A0273DFD53 /* HungerGames.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7C96616F6376012840D7B3 /* HungerGames.swift */; };
+		ED7C961B8D37230176EE8C7B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED7C9BD8115BC1BAB79A5A8F /* Preview Assets.xcassets */; };
+		ED7C98370927A80524970B9C /* HungerGamesSimulationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7C9AFE491D084886634B50 /* HungerGamesSimulationUITestsLaunchTests.swift */; };
+		ED7C98C3B46C2E04F9CB72A8 /* HungerGamesSimulationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7C97AF5A35D09C7298CAA1 /* HungerGamesSimulationTests.swift */; };
+		ED7C9A369B1AE4564372420F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7C9AF3F57647301B5FBB54 /* ContentView.swift */; };
+		ED7C9AFB7089BAD277FB691F /* HungerGamesSimulationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7C98661E732F38C1D1F774 /* HungerGamesSimulationApp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED7C95A2E110E7F80E398D3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED7C990B8DBE5B77031268DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED7C925D605765957F5D728F;
+			remoteInfo = HungerGamesSimulation;
+		};
+		ED7C972999992F0819E6A43B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED7C990B8DBE5B77031268DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED7C925D605765957F5D728F;
+			remoteInfo = HungerGamesSimulation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED7C915AC69236167A58DC2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED7C96616F6376012840D7B3 /* HungerGames.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HungerGames.swift; sourceTree = "<group>"; };
+		ED7C9762D6427002895F18FE /* HungerGamesSimulation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HungerGamesSimulation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED7C97AF5A35D09C7298CAA1 /* HungerGamesSimulationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HungerGamesSimulationTests.swift; sourceTree = "<group>"; };
+		ED7C98661E732F38C1D1F774 /* HungerGamesSimulationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HungerGamesSimulationApp.swift; sourceTree = "<group>"; };
+		ED7C9867D700D2CCF1F694FF /* HungerGamesSimulationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HungerGamesSimulationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED7C9A8BED0EC231A1F9E989 /* HungerGamesSimulationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HungerGamesSimulationUITests.swift; sourceTree = "<group>"; };
+		ED7C9AF3F57647301B5FBB54 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ED7C9AFE491D084886634B50 /* HungerGamesSimulationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HungerGamesSimulationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ED7C9BD8115BC1BAB79A5A8F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ED7C9D61D9B77AD2474DFD47 /* HungerGamesSimulationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HungerGamesSimulationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED7C91A6BB9835D61DAFA370 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED7C92DAA3B2884859576387 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED7C9658ADD535C20EB2D9BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED7C91A88C4DB12B4C85D35C = {
+			isa = PBXGroup;
+			children = (
+				ED7C9C1968CC4FD57A4BC804 /* Products */,
+				ED7C9D00B9CCB31C178A2576 /* HungerGamesSimulation */,
+				ED7C923905636BB498F0C71C /* HungerGamesSimulationTests */,
+				ED7C9388C63199F99945B039 /* HungerGamesSimulationUITests */,
+				ED7C96616F6376012840D7B3 /* HungerGames.swift */,
+			);
+			sourceTree = "<group>";
+		};
+		ED7C923905636BB498F0C71C /* HungerGamesSimulationTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED7C97AF5A35D09C7298CAA1 /* HungerGamesSimulationTests.swift */,
+			);
+			path = HungerGamesSimulationTests;
+			sourceTree = "<group>";
+		};
+		ED7C9388C63199F99945B039 /* HungerGamesSimulationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ED7C9A8BED0EC231A1F9E989 /* HungerGamesSimulationUITests.swift */,
+				ED7C9AFE491D084886634B50 /* HungerGamesSimulationUITestsLaunchTests.swift */,
+			);
+			path = HungerGamesSimulationUITests;
+			sourceTree = "<group>";
+		};
+		ED7C93D165B9C742618E5D67 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				ED7C9BD8115BC1BAB79A5A8F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ED7C9C1968CC4FD57A4BC804 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED7C9762D6427002895F18FE /* HungerGamesSimulation.app */,
+				ED7C9867D700D2CCF1F694FF /* HungerGamesSimulationTests.xctest */,
+				ED7C9D61D9B77AD2474DFD47 /* HungerGamesSimulationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED7C9D00B9CCB31C178A2576 /* HungerGamesSimulation */ = {
+			isa = PBXGroup;
+			children = (
+				ED7C915AC69236167A58DC2D /* Assets.xcassets */,
+				ED7C93D165B9C742618E5D67 /* Preview Content */,
+				ED7C98661E732F38C1D1F774 /* HungerGamesSimulationApp.swift */,
+				ED7C9AF3F57647301B5FBB54 /* ContentView.swift */,
+			);
+			path = HungerGamesSimulation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED7C90A8B446178B887A4230 /* HungerGamesSimulationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED7C95E4EF91A709095DEE11 /* Build configuration list for PBXNativeTarget "HungerGamesSimulationUITests" */;
+			buildPhases = (
+				ED7C96552022D57E8DD495FF /* Sources */,
+				ED7C91A6BB9835D61DAFA370 /* Frameworks */,
+				ED7C979C12AA531BA37B1029 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED7C977ACCC3C62FEA42428F /* PBXTargetDependency */,
+			);
+			name = HungerGamesSimulationUITests;
+			productName = HungerGamesSimulationUITests;
+			productReference = ED7C9D61D9B77AD2474DFD47 /* HungerGamesSimulationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		ED7C925D605765957F5D728F /* HungerGamesSimulation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED7C98A0BDE5B070AD46B67D /* Build configuration list for PBXNativeTarget "HungerGamesSimulation" */;
+			buildPhases = (
+				ED7C94198D645CE543F1FE8B /* Sources */,
+				ED7C9658ADD535C20EB2D9BF /* Frameworks */,
+				ED7C96AFE2E0FF9ECF716F8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HungerGamesSimulation;
+			productName = HungerGamesSimulation;
+			productReference = ED7C9762D6427002895F18FE /* HungerGamesSimulation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED7C9D3D4B304A61DB53C46E /* HungerGamesSimulationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED7C9D90B962EEDC9C7125F6 /* Build configuration list for PBXNativeTarget "HungerGamesSimulationTests" */;
+			buildPhases = (
+				ED7C953859B018A22465B4F6 /* Sources */,
+				ED7C92DAA3B2884859576387 /* Frameworks */,
+				ED7C992C5CE61D128E622266 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED7C95FBD29D27EE18226115 /* PBXTargetDependency */,
+			);
+			name = HungerGamesSimulationTests;
+			productName = HungerGamesSimulationTests;
+			productReference = ED7C9867D700D2CCF1F694FF /* HungerGamesSimulationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED7C990B8DBE5B77031268DD /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = ED7C92025C089379368AD03F /* Build configuration list for PBXProject "HungerGamesSimulation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ED7C91A88C4DB12B4C85D35C;
+			productRefGroup = ED7C9C1968CC4FD57A4BC804 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED7C925D605765957F5D728F /* HungerGamesSimulation */,
+				ED7C9D3D4B304A61DB53C46E /* HungerGamesSimulationTests */,
+				ED7C90A8B446178B887A4230 /* HungerGamesSimulationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED7C96AFE2E0FF9ECF716F8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED7C941C17D2478E8B69E140 /* Assets.xcassets in Resources */,
+				ED7C961B8D37230176EE8C7B /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED7C979C12AA531BA37B1029 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED7C992C5CE61D128E622266 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED7C94198D645CE543F1FE8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED7C9AFB7089BAD277FB691F /* HungerGamesSimulationApp.swift in Sources */,
+				ED7C9A369B1AE4564372420F /* ContentView.swift in Sources */,
+				ED7C94E47B48A9A0273DFD53 /* HungerGames.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED7C953859B018A22465B4F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED7C98C3B46C2E04F9CB72A8 /* HungerGamesSimulationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED7C96552022D57E8DD495FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED7C91FE3C3753BE72981B32 /* HungerGamesSimulationUITests.swift in Sources */,
+				ED7C98370927A80524970B9C /* HungerGamesSimulationUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED7C95FBD29D27EE18226115 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED7C925D605765957F5D728F /* HungerGamesSimulation */;
+			targetProxy = ED7C972999992F0819E6A43B /* PBXContainerItemProxy */;
+		};
+		ED7C977ACCC3C62FEA42428F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED7C925D605765957F5D728F /* HungerGamesSimulation */;
+			targetProxy = ED7C95A2E110E7F80E398D3D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		ED7C93C4C20AB1ACF34D08DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HungerGamesSimulation.app/HungerGamesSimulation";
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MarvishChandra.HungerGamesSimulationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		ED7C96C04E1C65F19656E106 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED7C97D6D81906B6A71844F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MarvishChandra.HungerGamesSimulationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HungerGamesSimulation;
+			};
+			name = Release;
+		};
+		ED7C9B41455CAC9BE45B45A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HungerGamesSimulation/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MarvishChandra.HungerGamesSimulation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ED7C9B914CFF3E4AD10B21E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HungerGamesSimulation.app/HungerGamesSimulation";
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MarvishChandra.HungerGamesSimulationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+		ED7C9F77B403911E9F1E879E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED7C9F79677E421EECFAD76D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HungerGamesSimulation/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MarvishChandra.HungerGamesSimulation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED7C9FC448985EA7C2181584 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MarvishChandra.HungerGamesSimulationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HungerGamesSimulation;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED7C92025C089379368AD03F /* Build configuration list for PBXProject "HungerGamesSimulation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED7C96C04E1C65F19656E106 /* Debug */,
+				ED7C9F77B403911E9F1E879E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED7C95E4EF91A709095DEE11 /* Build configuration list for PBXNativeTarget "HungerGamesSimulationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED7C9FC448985EA7C2181584 /* Debug */,
+				ED7C97D6D81906B6A71844F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ED7C98A0BDE5B070AD46B67D /* Build configuration list for PBXNativeTarget "HungerGamesSimulation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED7C9F79677E421EECFAD76D /* Debug */,
+				ED7C9B41455CAC9BE45B45A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ED7C9D90B962EEDC9C7125F6 /* Build configuration list for PBXNativeTarget "HungerGamesSimulationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED7C93C4C20AB1ACF34D08DB /* Debug */,
+				ED7C9B914CFF3E4AD10B21E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED7C990B8DBE5B77031268DD /* Project object */;
+}

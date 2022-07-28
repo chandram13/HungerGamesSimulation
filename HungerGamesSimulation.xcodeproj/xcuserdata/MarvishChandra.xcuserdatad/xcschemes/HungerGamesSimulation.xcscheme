@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   version = "1.3">
+   <BuildAction>
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForRunning = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "ED7C925D605765957F5D728F"
+               BuildableName = "HungerGamesSimulation.app"
+               BlueprintName = "HungerGamesSimulation"
+               ReferencedContainer = "container:HungerGamesSimulation.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <LaunchAction
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Debug"
+      allowLocationSimulation = "YES">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "ED7C925D605765957F5D728F"
+            BuildableName = "HungerGamesSimulation.app"
+            BlueprintName = "HungerGamesSimulation"
+            ReferencedContainer = "container:HungerGamesSimulation.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </LaunchAction>
+</Scheme>
